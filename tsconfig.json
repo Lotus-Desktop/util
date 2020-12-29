@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true,
+        "declaration": true,
+        "outDir": "./dist",
+        "rootDirs": [
+            "state",
+            "ipc",
+            "path",
+            "json",
+            "tools"
+        ],
+        "allowJs": true,
+        "lib": [
+            "ESNext"
+        ],
+        "baseUrl": "/usr/lib/lotus",
+        "typeRoots": [
+            "/usr/lib/lotus"
+        ],
+        "types": [
+            "libkit"
+        ],
+        "composite": true,
+        "downlevelIteration": true
+    }
+}

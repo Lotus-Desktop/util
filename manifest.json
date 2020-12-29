@@ -1,0 +1,11 @@
+{
+    "displayName": "util",
+    "index": "./dist/lib.js",
+    "modules": {
+        "state": "./dist/state/index.js",
+        "ipc": "./dist/ipc/index.js",
+        "path": "./dist/path/index.js",
+        "json": "./dist/json/index.js",
+        "tools": "./dist/tools/index.js"
+    }
+}
